@@ -4,15 +4,21 @@ PODS:
     - AFNetworking/UIKit+AFNetworking
   - AFNetworking/Core (2.0.0-RC2)
   - AFNetworking/UIKit+AFNetworking (2.0.0-RC2)
-  - libwebp (0.3.0-rc7):
+  - libwebp (0.4.0):
     - libwebp/dec
+    - libwebp/demux
     - libwebp/dsp
+    - libwebp/enc
+    - libwebp/mux
     - libwebp/utils
     - libwebp/webp
-  - libwebp/dec (0.3.0-rc7)
-  - libwebp/dsp (0.3.0-rc7)
-  - libwebp/utils (0.3.0-rc7)
-  - libwebp/webp (0.3.0-rc7)
+  - libwebp/dec (0.4.0)
+  - libwebp/demux (0.4.0)
+  - libwebp/dsp (0.4.0)
+  - libwebp/enc (0.4.0)
+  - libwebp/mux (0.4.0)
+  - libwebp/utils (0.4.0)
+  - libwebp/webp (0.4.0)
   - SDWebImage (3.3):
     - libwebp
     - SDWebImage/MapKit
@@ -24,8 +30,8 @@ DEPENDENCIES:
   - SDWebImage
 
 SPEC CHECKSUMS:
-  AFNetworking: 6b4bff71172dc36dd93b035c1cb52dd97d7ce428
-  libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
+  AFNetworking: 6b19d8a0793f342d8c879cd0af9d7488e54addcf
+  libwebp: 9e42449a525ff8a43548032e0345c588ff7c4573
   SDWebImage: 79a8bac9ccf85b269100b294f7b43684dab8bf8a
 
-COCOAPODS: 0.23.0
+COCOAPODS: 0.32.1
